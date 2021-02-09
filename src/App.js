@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Booklist from "./components/Booklist";
+import ThemeContextProvider from "./context/ThemeContext";
+import ThemeToogle from "./components/ThemeToogle";
+import AuthContextProvider from "./context/AuthContext";
+import BookContextProvider from "./context/BookContext";
+import BookAddForm from "./components/BookAddForm";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeContextProvider>
+        <BookContextProvider>
+          <Navbar />
+          <Booklist />
+          <BookAddForm />
+        </BookContextProvider>
+        <ThemeToogle />
+      </ThemeContextProvider>
     </div>
   );
 }
