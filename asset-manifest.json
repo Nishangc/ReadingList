@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReadingListapp/static/css/main.06416dfc.chunk.css",
+    "main.js": "/ReadingListapp/static/js/main.75ac61f0.chunk.js",
+    "main.js.map": "/ReadingListapp/static/js/main.75ac61f0.chunk.js.map",
+    "runtime-main.js": "/ReadingListapp/static/js/runtime-main.bae6ed05.js",
+    "runtime-main.js.map": "/ReadingListapp/static/js/runtime-main.bae6ed05.js.map",
+    "static/js/2.ff1ac968.chunk.js": "/ReadingListapp/static/js/2.ff1ac968.chunk.js",
+    "static/js/2.ff1ac968.chunk.js.map": "/ReadingListapp/static/js/2.ff1ac968.chunk.js.map",
+    "index.html": "/ReadingListapp/index.html",
+    "static/css/main.06416dfc.chunk.css.map": "/ReadingListapp/static/css/main.06416dfc.chunk.css.map",
+    "static/js/2.ff1ac968.chunk.js.LICENSE.txt": "/ReadingListapp/static/js/2.ff1ac968.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bae6ed05.js",
+    "static/js/2.ff1ac968.chunk.js",
+    "static/css/main.06416dfc.chunk.css",
+    "static/js/main.75ac61f0.chunk.js"
+  ]
+}
