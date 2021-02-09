@@ -1,5 +1,4 @@
 import React, { createContext, useEffect, useReducer } from "react";
-import Cookies from "js-cookie";
 import { bookReducer } from "../reducers/bookReducers";
 
 export const BookContext = createContext();
